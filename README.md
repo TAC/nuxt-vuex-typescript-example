@@ -1,6 +1,6 @@
 # typescript
 
-> My TypeScript Nuxt.js project
+> My Vuex TypeScript Nuxt.js project
 
 ## Build Setup
 
