@@ -1,4 +1,4 @@
-# typescript
+# vuex typescript example
 
 > My Vuex TypeScript Nuxt.js project
 
