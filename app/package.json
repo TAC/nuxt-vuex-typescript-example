@@ -8,8 +8,7 @@
     "dev": "nuxt",
     "lint": "eslint --ext .js,.vue,.ts --ignore-path ../.gitignore .",
     "build": "nuxt build && yarn build:copy",
-    "build:copy": "rimraf ../public/* && rimraf ../functions/.nuxt/* && cpx .nuxt/**/* ../functions/.nuxt/ &&  cpx .nuxt/dist/**/* ../public/assets/ && cpx src/static/* ../public/",
-    "serve": "firebase serve --only functions,hosting"
+    "build:copy": "rimraf ../public/* && rimraf ../functions/.nuxt/* && cpx .nuxt/**/* ../functions/.nuxt/ &&  cpx .nuxt/dist/**/* ../public/assets/ && cpx src/static/* ../public/"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
