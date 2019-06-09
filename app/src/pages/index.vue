@@ -1,5 +1,6 @@
 <template lang="pug">
   section.container
+    logo
     counter
 </template>
 
@@ -21,7 +22,6 @@ export default class extends Vue {}
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
